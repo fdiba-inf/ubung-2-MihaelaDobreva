@@ -6,7 +6,7 @@ public class DayOfWeek {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
 
-    System.out.print("Enter a number: ");
+    System.out.print("Enter a day of week: ");
     int number = input.nextInt();
 
     if (number == 1) {
@@ -24,9 +24,9 @@ public class DayOfWeek {
     } else if (number == 7) {
       System.out.println("Day of week: Sunday");
     } else {
-      System.out.println("Invalid day");
+      System.out.println("Day of week: Invalid day");
     }
-    input.close();
+    
 
   
 
